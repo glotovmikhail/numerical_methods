@@ -20,16 +20,11 @@ class SeidelSolver {
             val q = ConditionNumber.getNorm((e - l).invert() * r)
             var result = x0
             var nResult = DoubleMatrix(n, 1)
-            if (q > 1) throw NoSolveException()
+            if (q > 1) throw NoSolveException("q is greater than 1")
             while (true) {
                 for (i in 0 until n) {
-                    var s = 0.0
-                    for (j in 0 until i) {
-                        s += a0.get(i, j) * nResult.get(j, 0)
-                    }
-                    for (j in i + 1 until n) {
-                        s += a0.get(i, j) * result.get(j, 0)
-                    }
+                    val s = (0 until i).sumByDouble { a0.get(i, it) * nResult.get(it, 0) } +
+                            (i + 1 until n).sumByDouble { a0.get(i, it) * result.get(it, 0) }
                     nResult.set(i, 0, (b.get(i, 0) - s) / a0.get(i, i))
                 }
                 val cond = ConditionNumber.getNorm(result - nResult)

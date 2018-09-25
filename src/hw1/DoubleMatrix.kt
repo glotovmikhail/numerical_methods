@@ -23,7 +23,7 @@ open class DoubleMatrix(n: Int, m: Int, values: Array<Array<Double>>) : Matrix<D
     override fun minus(matrix: DoubleMatrix): DoubleMatrix = apply(matrix) { it.first - it.second }
 
     override fun times(matrix: DoubleMatrix): DoubleMatrix {
-        if (m != matrix.n) throw MatrixSizeException()
+        if (m != matrix.n) System.err.println("BADSIZE")
 
         val newM = matrix.m
 
@@ -39,7 +39,7 @@ open class DoubleMatrix(n: Int, m: Int, values: Array<Array<Double>>) : Matrix<D
     }
 
     override fun apply(matrix: DoubleMatrix, function: (Pair<Double, Double>) -> Double): DoubleMatrix {
-        if (n != matrix.n || m != matrix.m) throw MatrixSizeException()
+        if (n != matrix.n || m != matrix.m) System.err.println("BadSIZE")
 
         return DoubleMatrix(n, m, values.zip(matrix.values).map {
             it.first.zip(it.second).map {

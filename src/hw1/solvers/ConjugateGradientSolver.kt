@@ -7,7 +7,7 @@ import hw1.NoSolveException
 class ConjugateGradientSolver {
     companion object {
         fun getSolve(a0: DoubleMatrix, b0: DoubleMatrix, x0: DoubleMatrix, epsilon: Double): DoubleMatrix {
-            if (a0.determinant() < 0 || a0 != a0.trans()) throw NoSolveException("Doesn't satisfy condition")
+            if (a0.determinant() < 0 || a0 != a0.trans()) throw NoSolveException("Doesn't satisfy condition: not symmetric or non-positive")
 
             var xkm = x0
             var rkm = b0 - a0 * x0

@@ -6,7 +6,7 @@ import hw1.NoSolveException
 class GaussianSolver {
     companion object {
         fun getSolve(a0: DoubleMatrix, b0: DoubleMatrix): DoubleMatrix {
-            if (a0.determinant() == 0.0) throw NoSolveException()
+            if (a0.determinant() == 0.0) throw NoSolveException("determinant equals zero")
             val a = a0.clone()
             val b = b0.clone()
             val n = a.size().first

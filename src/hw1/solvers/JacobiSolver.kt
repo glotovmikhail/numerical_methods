@@ -16,14 +16,12 @@ class JacobiSolver {
             val q = ConditionNumber.getNorm(d.invert() * r)
             var result = x0
             var nResult = DoubleMatrix(n, 1)
-            if (q > 1) throw NoSolveException()
+            if (q > 1) throw NoSolveException("q is greater than 1")
             while (true) {
                 for (i in 0 until n) {
-                    var s = 0.0
-                    for (j in 0 until n) {
-                        if (i != j)
-                            s += a0.get(i, j) * result.get(j, 0)
-                    }
+                    val s = (0 until n)
+                            .filter { i != it }
+                            .sumByDouble { a0.get(i, it) * result.get(it, 0) }
                     nResult.set(i, 0, (b.get(i, 0) - s) / a0.get(i, i))
                 }
                 val cond = ConditionNumber.getNorm(result - nResult)
