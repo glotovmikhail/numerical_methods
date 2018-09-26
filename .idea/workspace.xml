@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40c66d17-2ceb-4bf8-ba4b-23e82fbbed01" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/double/x1.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/hw1/hw1/test/DoubleMatrixTestKt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/double/d2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/double/init.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/double/invert.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/double/mul.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/double/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/double/sub.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/double/sum.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/double/trans.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/hw1/test/DoubleMatrixTest.kt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/double/d1" afterPath="$PROJECT_DIR$/res/double/b1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/double/d3" afterPath="$PROJECT_DIR$/res/double/b2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hw1/META-INF/hw1.kotlin_module" afterPath="$PROJECT_DIR$/out/production/hw1/META-INF/hw1.kotlin_module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hw1/hw1/DoubleMatrix.class" afterPath="$PROJECT_DIR$/out/production/hw1/hw1/DoubleMatrix.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hw1/hw1/solvers/ConjugateGradientSolver$Companion.class" afterPath="$PROJECT_DIR$/out/production/hw1/hw1/solvers/ConjugateGradientSolver$Companion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hw1/hw1/solvers/GaussianSolver$Companion.class" afterPath="$PROJECT_DIR$/out/production/hw1/hw1/solvers/GaussianSolver$Companion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hw1/hw1/solvers/JacobiSolver$Companion.class" afterPath="$PROJECT_DIR$/out/production/hw1/hw1/solvers/JacobiSolver$Companion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hw1/hw1/solvers/SeidelSolver$Companion.class" afterPath="$PROJECT_DIR$/out/production/hw1/hw1/solvers/SeidelSolver$Companion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hw1/hw1/test/SolverTestKt$solveAll$2.class" afterPath="$PROJECT_DIR$/out/production/hw1/hw1/test/SolverTestKt$solveAll$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hw1/TestKt.class" afterPath="$PROJECT_DIR$/out/production/hw1/TestKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hw1/hw1/Generator$Companion.class" afterPath="$PROJECT_DIR$/out/production/hw1/hw1/Generator$Companion.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/hw1/hw1/test/SolverTestKt.class" afterPath="$PROJECT_DIR$/out/production/hw1/hw1/test/SolverTestKt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/double/double1.txt" afterPath="$PROJECT_DIR$/res/double/double1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw1/DoubleMatrix.kt" afterPath="$PROJECT_DIR$/src/hw1/DoubleMatrix.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw1/solvers/ConjugateGradientSolver.kt" afterPath="$PROJECT_DIR$/src/hw1/solvers/ConjugateGradientSolver.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw1/solvers/GaussianSolver.kt" afterPath="$PROJECT_DIR$/src/hw1/solvers/GaussianSolver.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw1/solvers/JacobiSolver.kt" afterPath="$PROJECT_DIR$/src/hw1/solvers/JacobiSolver.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw1/solvers/SeidelSolver.kt" afterPath="$PROJECT_DIR$/src/hw1/solvers/SeidelSolver.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test.kt" afterPath="$PROJECT_DIR$/src/Test.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw1/Generator.kt" afterPath="$PROJECT_DIR$/src/hw1/Generator.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw1/test/SolverTest.kt" afterPath="$PROJECT_DIR$/src/hw1/test/SolverTest.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,19 +27,61 @@
       <file leaf-file-name="SolverTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hw1/test/SolverTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="270">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="x1.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/double/x1.txt">
+      <file leaf-file-name="SeidelSolver.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hw1/solvers/SeidelSolver.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+            <state relative-caret-position="341">
+              <caret line="22" column="66" lean-forward="false" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoubleMatrix.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hw1/DoubleMatrix.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConjugateGradientSolver.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hw1/solvers/ConjugateGradientSolver.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GaussianSolver.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hw1/solvers/GaussianSolver.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="8" column="88" lean-forward="false" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,63 +108,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GaussianSolver.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hw1/solvers/GaussianSolver.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="8" column="88" lean-forward="false" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatrixReader.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hw1/MatrixReader.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding>
-                <element signature="e#13#123#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="double1.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/double/double1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="b1.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/double/b1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="b2.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/double/b2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Generator.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hw1/Generator.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-505">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="233">
+              <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JacobiSolver.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hw1/solvers/JacobiSolver.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -170,8 +148,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/hw1/ConditionNumber.kt" />
         <option value="$PROJECT_DIR$/src/hw1/MatrixReader.kt" />
-        <option value="$PROJECT_DIR$/src/Test.kt" />
-        <option value="$PROJECT_DIR$/src/hw1/Generator.kt" />
         <option value="$PROJECT_DIR$/src/hw1/DoubleMatrix.kt" />
         <option value="$PROJECT_DIR$/src/hw1/solvers/ConjugateGradientSolver.kt" />
         <option value="$PROJECT_DIR$/src/hw1/solvers/GaussianSolver.kt" />
@@ -182,6 +158,8 @@
         <option value="$PROJECT_DIR$/res/double/x1.txt" />
         <option value="$PROJECT_DIR$/src/hw1/test/ConditionTest.kt" />
         <option value="$PROJECT_DIR$/res/double/double1.txt" />
+        <option value="$PROJECT_DIR$/src/Test.kt" />
+        <option value="$PROJECT_DIR$/src/hw1/Generator.kt" />
         <option value="$PROJECT_DIR$/src/hw1/test/SolverTest.kt" />
       </list>
     </option>
@@ -789,9 +767,9 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Kotlin.hw1.test.SolverTestKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.hw1.test.ConditionTestKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.hw1.test.DoubleMatrixTestKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.TestKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.TestKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.hw1.test.ConditionTestKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.hw1.test.DoubleMatrixTestKt" />
       </list>
     </recent_temporary>
   </component>
@@ -813,12 +791,20 @@
       <workItem from="1536757912617" duration="930000" />
       <workItem from="1536758861915" duration="841000" />
       <workItem from="1537479797082" duration="63000" />
-      <workItem from="1537900898389" duration="7080000" />
+      <workItem from="1537900898389" duration="11455000" />
     </task>
+    <task id="LOCAL-00001" summary="c">
+      <created>1537908212345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537908212345</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8914000" />
+    <option name="totallyTimeSpent" value="13289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="170" y="140" width="1524" height="886" extended-state="0" />
@@ -832,7 +818,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -856,6 +842,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="c" />
+    <option name="LAST_COMMIT_MESSAGE" value="c" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1087,14 +1077,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/double/double2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/double/sum.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1111,52 +1093,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/double/double3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw1/solvers/ConjugateGradientSolver.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="138" lean-forward="false" selection-start-line="9" selection-start-column="138" selection-end-line="9" selection-end-column="138" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hw1/NoSolveException.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw1/solvers/SeidelSolver.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="22" column="66" lean-forward="false" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw1/solvers/JacobiSolver.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
           <folding />
         </state>
       </provider>
@@ -1169,26 +1109,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw1/DoubleMatrix.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1689">
-          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hw1/Matrix.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw1/Generator.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-505">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1211,10 +1135,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/double/double1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/double/double2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/double/b1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/double/double3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/double/x1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/double/gilbert.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw1/Generator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw1/DoubleMatrix.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw1/solvers/JacobiSolver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw1/solvers/SeidelSolver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="22" column="66" lean-forward="false" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw1/solvers/ConjugateGradientSolver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw1/solvers/GaussianSolver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="88" lean-forward="false" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
           <folding />
         </state>
       </provider>
@@ -1237,34 +1259,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/double/double1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw1/solvers/GaussianSolver.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="88" lean-forward="false" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/double/x1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hw1/test/SolverTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="270">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding />
         </state>
       </provider>

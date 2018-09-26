@@ -26,7 +26,7 @@ class Generator {
             return matrix
         }
 
-        fun generateBad(size: Int): DoubleMatrix {
+        fun generateHilbert(size: Int): DoubleMatrix {
             val result = DoubleMatrix(size, size)
             for (i in 0 until size) {
                 for (j in 0 until size) {

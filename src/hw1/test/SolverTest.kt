@@ -33,12 +33,7 @@ private fun printResult(matrix: DoubleMatrix) {
 }
 
 fun main(args: Array<String>) {
-//    val a1 = getMatrix("double1")
-//    val b1 = getMatrix("b1")
-//    val x1 = getMatrix("x1")
-//    solveAll(a1, b1, x1)
-
-    val n = 3
+    val n = 6
     double(n)
 }
 
@@ -50,23 +45,31 @@ fun double(n: Int) {
     println()
     val sym = Generator.generateSymmetric(n)
     println("Symmetric matrix of size $sym")
+    println("Condition number: " + ConditionNumber.getCondition(sym))
     println()
-    println("solving for sym = B, start with C")
     solveAll(sym, b, c)
     println()
     (0 until n).forEach { sym.set(it, it, 1e-6) }
     println("Bad symmetric matrix of size $sym")
+    println("Condition number: " + ConditionNumber.getCondition(sym))
+    println()
     solveAll(sym, b, c)
     println()
     val diag = Generator.generateDiagonallyDominant(n)
     println("Diagonally Dominant matrix of size $diag")
+    println("Condition number: " + ConditionNumber.getCondition(diag))
+    println()
     solveAll(diag, b, c)
     println()
     val random = Generator.generateRandom(n, n)
     println("Random matrix of size $random")
+    println("Condition number: " + ConditionNumber.getCondition(random))
+    println()
     solveAll(random, b, c)
     println()
-    val bad = Generator.generateBad(n)
-    println("Bad matrix of size $bad")
-    solveAll(bad, b, c)
+    val hilbert = Generator.generateHilbert(n)
+    println("Hilbert matrix of size $hilbert")
+    println("Condition number: " + ConditionNumber.getCondition(diag))
+    println()
+    solveAll(hilbert, b, c)
 }
